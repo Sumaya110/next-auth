@@ -1,0 +1,86 @@
+/* Login.module.css */
+
+.container {
+    display: flex;
+    flex-direction: column; /* Adjust layout to column */
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .loginForm {
+    max-width: 400px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Add some margin to separate the form and the signup link */
+  }
+  
+  .inputField {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .loginButton {
+    width: 100%;
+    padding: 15px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .loginButton:hover {
+    background-color: #45a049;
+  }
+  
+  .signUpLink {
+    font-size: 16px;
+    margin-top: 10px; /* Adjust spacing from the form */
+  }
+  
+  .signUpLink a {
+    color: #4caf50;
+    text-decoration: none;
+  }
+  
+  .signUpLink a:hover {
+    text-decoration: underline;
+  }
+
+
+  .logoutButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px 15px;
+    background-color: #e74c3c; /* Red color for logout button */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .logoutButton:hover {
+    background-color: #c0392b; /* Darker red on hover */
+  }
+
+
+
+.welcomeText {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #3498db; /* You can customize the color */
+}
+
+
+ 

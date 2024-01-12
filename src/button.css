@@ -1,0 +1,30 @@
+/* styles.css */
+
+/* main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  } */
+  
+  h3 {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #f44336; /* Red color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #d32f2f; /* Darker red color on hover */
+  }
+  
